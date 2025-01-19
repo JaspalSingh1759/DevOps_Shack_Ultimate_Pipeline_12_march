@@ -40,6 +40,11 @@ Then, you can run the script using:
 ```bash
 ./install_docker.sh
 ```
+To make non sudo user to run docker
+
+```bash
+sudo chmod 666 /var/run/docker.sock
+```
 
 ## Create Sonarqube Docker container
 To run SonarQube in a Docker container with the provided command, you can follow these steps:
