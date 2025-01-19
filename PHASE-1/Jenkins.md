@@ -80,3 +80,14 @@ Then, you can run the script using:
 ```bash
 ./install_docker.sh
 ```
+
+## Access Jenkins
+
+http:/IP:8080
+
+#Get initial admin password
+```bash
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+
